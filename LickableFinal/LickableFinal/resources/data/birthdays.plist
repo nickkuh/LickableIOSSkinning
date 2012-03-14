@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>pic</key>
+		<string>angelina-jolie.jpg</string>
+		<key>uid</key>
+		<string>uid1</string>
+		<key>name</key>
+		<string>Angelina Jolie</string>
+		<key>birthdate</key>
+		<date>1975-06-03T23:00:00Z</date>
+	</dict>
+	<dict>
+		<key>pic</key>
+		<string>brad-pitt.jpg</string>
+		<key>uid</key>
+		<string>uid2</string>
+		<key>name</key>
+		<string>Brad Pitt</string>
+		<key>birthdate</key>
+		<date>1963-12-18T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>pic</key>
+		<string>christina-aguilera.jpg</string>
+		<key>uid</key>
+		<string>uid3</string>
+		<key>name</key>
+		<string>Christina Aguilera</string>
+		<key>birthdate</key>
+		<date>1980-12-18T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>pic</key>
+		<string>justin-bieber.jpg</string>
+		<key>uid</key>
+		<string>uid4</string>
+		<key>name</key>
+		<string>Justin Bieber</string>
+		<key>birthdate</key>
+		<date>1994-03-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>pic</key>
+		<string>scarlett-johansson.jpg</string>
+		<key>uid</key>
+		<string>uid5</string>
+		<key>name</key>
+		<string>Scarlett Johansson</string>
+		<key>birthdate</key>
+		<date>1984-11-22T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>pic</key>
+		<string>aloe-blacc.jpg</string>
+		<key>uid</key>
+		<string>uid6</string>
+		<key>name</key>
+		<string>Aloe Blacc</string>
+		<key>birthdate</key>
+		<date>1979-01-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>pic</key>
+		<string>jamie-oliver.jpg</string>
+		<key>uid</key>
+		<string>uid7</string>
+		<key>name</key>
+		<string>Jamie Oliver</string>
+		<key>birthdate</key>
+		<date>1975-05-26T23:00:00Z</date>
+	</dict>
+	<dict>
+		<key>pic</key>
+		<string>katy-perry.jpg</string>
+		<key>uid</key>
+		<string>uid8</string>
+		<key>name</key>
+		<string>Katy Perry</string>
+		<key>birthdate</key>
+		<date>1984-10-24T23:00:00Z</date>
+	</dict>
+	<dict>
+		<key>pic</key>
+		<string>olly-murs.jpg</string>
+		<key>uid</key>
+		<string>uid9</string>
+		<key>name</key>
+		<string>Olly Murs</string>
+		<key>birthdate</key>
+		<date>1984-05-13T23:00:00Z</date>
+	</dict>
+	<dict>
+		<key>pic</key>
+		<string>russell-brand.jpg</string>
+		<key>uid</key>
+		<string>uid10</string>
+		<key>name</key>
+		<string>Russell Brand</string>
+		<key>birthdate</key>
+		<date>1984-06-03T23:00:00Z</date>
+	</dict>
+</array>
+</plist>
