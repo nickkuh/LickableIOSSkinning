@@ -1,0 +1,58 @@
+Example Source Code from iOS Skinning: Make your Apps Lickable!:
+----------------------------------------------------------------
+
+Tip 1: Create a CoreViewController
+----------------------------------
+
+user-interface/view-controllers/CoreViewController
+
+Apply a background image view to every view in your app, e.g.:
+
+-(void) viewDidLoad
+{
+    [super viewDidLoad];
+    UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"app-background.png"]];
+    [self.view insertSubview:backgroundView atIndex:0];
+
+}
+
+Tip 2: Create a "Style Sheet" = Code Organisation / Centralised Styling
+-----------------------------------------------------------------------
+
+StyleSheet.h and StyleSheet.m at the root of the Xcode project
+
++(void)styleLabel:(UILabel *)label withType:(LabelType)labelType;+(void)styleImageView:(UIImageView *)imageView withType:(ImageViewType)imageViewType;
+
+Example View Controller
+
+-(void) setBirthdayLabel:(UILabel *)birthdayLabel{    _birthdayLabel = birthdayLabel;    [StyleSheet styleLabel:_birthdayLabel withType:LabelTypeLarge];}
+
+
+Tip 3: UIAppearance APIs - simple yet powerful
+----------------------------------------------
+
+iOS 5 Only.
+
+New iOS 5 instance styling methods. Can also be set via global proxies.
+Applied to all new class instances when UIKit class instance added to view hierarchy
+
+Two Appearance API Proxy Methods to call on all the classes you wish to style at the point your app first launches:
+
+[[MyClass appearance] instanceMethod:someParameter];
+
+eg.
+[[UINavigationBar appearance] setBackgroundImage:myImage forBarMetrics:UIBarMetricsDefault];
+
+and 
+
+[[MyClass appearance] appearanceWhenContainedIn:[ContainerClassA class],[ContainerClassB class],nil] instanceMethod:someParameter];
+
+eg.
+[[UIBarButtonItem appearanceWhenContainedIn:[UIToolbar class],nil] setTintColor:colour];
+
+
+Tip 4:Subclass UIKit classes and use Appearance APIs
+----------------------------------------------------
+
+eg.
+[[LargeButton appearance] setBackgroundImage:img forState:UIControlStateNormal];
